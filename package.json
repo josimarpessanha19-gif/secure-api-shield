@@ -1,0 +1,26 @@
+{
+    "name": "secure-api-shield",
+    "version": "1.0.0",
+    "description": "Production-ready security middleware for Node.js APIs",
+    "main": "src/index.js",
+    "type": "module",
+    "scripts": {
+          "start": "node src/index.js",
+          "dev": "node --watch src/index.js",
+          "test": "node --test tests/"
+    },
+    "keywords": ["security", "api", "middleware", "jwt", "rate-limiting", "nodejs"],
+    "author": "Josimar Pessanha <josimarpessanha19@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+          "express": "^4.18.2",
+          "helmet": "^7.1.0",
+          "jsonwebtoken": "^9.0.2"
+    },
+    "devDependencies": {
+          "eslint": "^8.56.0"
+    },
+    "engines": {
+          "node": ">=18.0.0"
+    }
+}
